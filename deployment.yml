@@ -16,7 +16,7 @@ spec: # DeploymentSpec - Specification of the desired behavior of the Deployment
       containers:  # List of containers belonging to the pod. 
       - name: nginx
         image: zamasaki147/nginx:s3zam
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 
